@@ -45,10 +45,6 @@ export default function App() {
     setShowAddModal(true)
   }
 
-  const handleViewQuote = () => {
-    setShowAddModal(false)
-    setQuoteOpen(true)
-  }
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
